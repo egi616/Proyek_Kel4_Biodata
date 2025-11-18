@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Egi Jaelani</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <header>
+        <div class="logo">EJ</div>
+        <nav>
+            <a href="#about">Tentang</a>
+            <a href="#skills">Keahlian</a>
+            <a href="#contact">Kontak</a>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <img src="https://via.placeholder.com/150" alt="Foto Profil" class="profile-pic">
+        <h1>Halo, Saya <span>Egi Jaelani</span></h1>
+        <p>Seorang pengembang web yang menyukai desain sederhana dan bersih.</p>
+        <a href="#contact" class="btn">Hubungi Saya</a>
+    </section>
+
+    <section id="about">
+        <h2>Tentang Saya</h2>
+        <p>
+            Saya seorang mahasiswa dan pengembang web yang fokus pada pembuatan antarmuka sederhana namun fungsional.
+            Saya percaya bahwa keindahan berasal dari kesederhanaan, dan setiap desain harus memiliki tujuan yang jelas.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Keahlian</h2>
+        <ul class="skills-list">
+            <li>💻 HTML, CSS, JavaScript</li>
+            <li>⚙️ Java & Python</li>
+            <li>🎨 Desain UI Minimalis</li>
+            <li>☁️ GitHub & Version Control</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Kontak</h2>
+        <p>Ingin berkolaborasi atau sekadar menyapa?</p>
+        <p>Email: <a href="mailto:egi@example.com">egi@example.com</a></p>
+        <p>Instagram: <a href="https://instagram.com/" target="_blank">@egi_jaelani</a></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Egi Jaelani — Dibuat dengan gaya minimalis ♡</p>
+    </footer>
+</body>
+</html>
