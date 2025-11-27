@@ -57,3 +57,31 @@ header h1 {
   cursor:pointer;
   color:yellow;
 }
+section {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 24px;
+  gap: 18px;
+  background: #0b1020;
+  color:white;
+}
+
+article {
+  background: rgba(51, 57, 83, 0.6);
+  padding: 18px;
+  border-radius: 12px;
+  color:white;
+}
+
+aside {
+  background:#141414;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+footer {
+  background:#0c1222;
+  padding: 15px;
+  color:white;
+  text-align:center;
+}
