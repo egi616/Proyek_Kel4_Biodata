@@ -23,3 +23,37 @@ header h1 {
   z-index: 100;
   border-bottom: 1px solid rgba(255,255,255,0.07);
 }
+
+.logo {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.nav-links .nav-item {
+  margin: 0 14px;
+  color: #cbd5e1;
+  font-size: 17px;
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  transition: .3s;
+}
+
+.nav-links .nav-item:hover {
+  background: rgba(52,152,219,0.25);
+  color: #fff;
+}
+
+.nav-links .active {
+  background: #2b82ff;
+  color: #fff;
+}
+
+.theme-toggle {
+  font-size: 22px;
+  background:none;
+  border:none;
+  cursor:pointer;
+  color:yellow;
+}
