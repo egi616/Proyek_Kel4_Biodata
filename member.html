@@ -46,10 +46,30 @@
           <p class="muted">Member</p>
           <a href="rafi.html" class="btn small">Lihat Detail</a>
         </div>
-
       </div>
     </section>
   </main>
+  <div id="memberModal" class="modal" aria-hidden="true">
+    <div class="modal-content">
+      <button class="modal-close" aria-label="close">✕</button>
+      <div class="modal-body">
+        <div class="modal-avatar"><img src="https://via.placeholder.com/240x240.png?text=Foto" alt="foto"></div>
+        <h3 id="m-nama">Nama</h3>
+        <p id="m-role" class="muted">Role</p>
+        <ul class="bio-list">
+          <li><strong>NIM:</strong> <span id="m-nim">-</span></li>
+          <li><strong>Kelas:</strong> <span id="m-kelas">-</span></li>
+          <li><strong>Hobi:</strong> <span id="m-hobi">-</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p><span id="year2"></span> Biodata Kelompok</p>
+    </div>
+  </footer>
   <script src="script.js"></script>
 </body>
 </html>
